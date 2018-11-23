@@ -1,0 +1,98 @@
+/* CONTAINERS */
+
+#box-main {
+    width: 90%;
+	padding-right: 5%;
+    padding-left: 5%;
+}
+
+#box-title {
+	width: 94%;
+	height: 20%;
+	text-align: center;
+}
+
+#box-left {
+	width: 70%;
+	padding-right: 3%;
+    padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-style: solid;
+    border-width: 5px;
+	margin: auto;
+	position: fixed:
+}
+
+#box-right {
+	width: 70%;
+	padding-right: 3%;
+    padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-style: solid;
+    border-width: 5px;
+	margin: auto;
+	position: fixed:
+}
+
+#box-footer {
+	width: 94%;
+	height: 20%;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.column {
+	display: flex;
+	align-items: center;
+    float: left;
+}
+
+.left, .right {
+    width: 25%;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.middle {
+    width: 50%;
+}
+
+/* HEADINGS */
+
+h1 {
+	font-size: 700%;
+	font-family: 'GeometricSansSerifv1Regular'; 
+}
+
+h2 {
+	font-size: 300%;
+	font-family: 'GeometricSansSerifv1Regular'; 
+}
+
+h3 {
+	font-size: 150%;
+	font-family: 'GeometricSansSerifv1Regular'; 
+}
+
+p {
+	font-family: 'NowRegular';
+}
+
+/* ELEMENTS */
+
+hr {
+	border-top: 3px solid black;
+}
+
+ul {
+	font-family: 'NowRegular';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
